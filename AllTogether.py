@@ -9,7 +9,6 @@ while i< 10:
     for i in list:
         if i % 2 == 0:
             list.pop(0)
-            continue 
         else:
             odd.append(i)
 print(odd)
